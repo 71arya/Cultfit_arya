@@ -26,6 +26,11 @@ import e from '../../assets/image_zoom_widget_img_5.png'
 import z from '../../assets/text-only-v2.png';
 
 import first from '../../assets/1st.webp'
+
+
+
+
+
 function Hpage() {
   const innRefs = useRef([]);
   const slideInRefs = useRef([]);
@@ -160,7 +165,6 @@ function Hpage() {
           <img src={prophoto} alt="cult-pass-pro-partial" />
         </div>
       </div>
-
       <div className="container">
         <div className="z">
           <ul>
@@ -237,6 +241,12 @@ function Hpage() {
             <button className="learn-more-button">Learn More</button>
           </div>
         </div>
+
+
+
+
+
+  
         <div className="m" >
           <h2 className="h4">cult.fit franchise<br/>opportunities</h2>
          <p className="h3"> Partner with the largest fitness brand in India</p>
@@ -244,16 +254,15 @@ function Hpage() {
             <button className="learn-more-button">Learn More</button>
           </div>
         </div>
-        
-        
       </div>
+
       <div className="moni">
       <div style={{ backgroundImage: "url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/we_are_cult_new.svg)" }} className="exit">
       <h2 className="rin">At cult.fit, we make group workouts fun, daily food<br/> healthy & tasty, mental fitness easy with yoga &<br/> meditation, and medical & lifestyle care hassle-free.<br/>
       #BeBetterEveryDay</h2></div>
       </div>
-     
     </div>
+
   );
 }
 
